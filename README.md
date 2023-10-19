@@ -1,1 +1,6 @@
-# Accenture-Photo-Booth
+
+
+Start the server  with 
+```
+npm run start 
+```
