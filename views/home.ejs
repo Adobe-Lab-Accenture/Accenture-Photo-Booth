@@ -58,8 +58,9 @@
       margin: 20px 0px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-    section{
-      margin: 40px 0px;
+    
+    .section{
+      margin: 30px 0px;
     }
 
     #about{
@@ -195,7 +196,7 @@
 
     <!-- Photo Booth Content -->
     <div id="content">
-      <section id="about">
+      <section class="section" id="about">
         <img class="image-booth" src="https://ai-photo-booths-website.sfo2.cdn.digitaloceanspaces.com/website-assets/images/AI%20Photo%20Booths%20Logo.png"/>
         <div class="about-us">
         <h2>About the Photo Booth</h2>
@@ -203,7 +204,7 @@
           </div>
       </section>
 
-      <section id="why-choose-us">
+      <section class="section" id="why-choose-us">
         <h2>Instructions for using Booth!</h2>
         <ul>
           <li>High-quality photos with advanced AI technology</li>
@@ -215,7 +216,7 @@
      
 
       <!-- Capture Image -->
-      <div class="camera-container">
+      <div class="camera-container section">
       <button class="btn" id="start-camera">Start Camera</button>
       <video id="camera-feed" class="video-hide" autoplay playsinline></video>
       <button class="btn" id="capture-image" disabled>Capture Image</button>
@@ -224,7 +225,7 @@
       <button class="btn" id="share-email" disabled>Share by Email</button>
       </div>
 
-      <div class="additional-info">
+      <div class="additional-info section">
       <h2>Explore More Features</h2>
       <p>Discover the power of AI in capturing your special moments. Our photo booth is equipped with the latest technology to deliver stunning results. From AI-powered filters to instant social media sharing, we've got you covered. Don't miss the opportunity to create lasting memories with us.</p>
       </div>
