@@ -129,4 +129,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-accenture-photo-booth-ec0aac8c4209.json
+
+/node_modules
+npm-debug.log
+.DS_Store
+/*.env
